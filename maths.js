@@ -21,6 +21,7 @@ function checkAnswer() {
 
     if (prediction == answer) {
         score++;
+        alert(`Right answer, my program recognized no: ${prediction}`);
         console.log(`Correct! Score: ${score}`);
         if (score <= 6) {
             backgroundImages.push(`url('images/background${score}.svg')`);
