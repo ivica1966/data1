@@ -35,7 +35,7 @@ function checkAnswer() {
         if (score != 0) { score--; }
         console.log(`Wrong. Score ${score}`);
 
-        alert('Oops! Check your calculations and try writing the number neater next time!');
+        alert('Oops! Check your calculations ${prediction} and try writing the number neater next time!');
         setTimeout(function () {
             backgroundImages.pop();
             document.body.style.backgroundImage = backgroundImages;
