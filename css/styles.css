@@ -9,8 +9,8 @@ background-size: cover;
 
 /* TODO: Styling by html element: add styling for h1 and h2 */
 h1, h2 {
-  font-weight: 400;
-  font-size: 100px;
+  font-weight: 100;
+  font-size: 50px;
 }
 
 /* TODO: Styling by id: add styling for #title */
